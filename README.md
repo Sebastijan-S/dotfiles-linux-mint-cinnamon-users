@@ -17,7 +17,7 @@ Before you do anything for everything to work on linux mint i3 WM:
   xbacklight
   pavucontrol
   xclip
-  i3lock
+  i3lock-fancy
   Fonts, nerd font symbols (MUST BE IN usr/share/fonts/)
 
   Strongly Recommended
