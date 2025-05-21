@@ -58,3 +58,5 @@ xkill
 and press on the unwanted bar
 
 8. Good luck
+
+PS for photos just move the photos where you want and change the code inside ~/.config/i3/config
