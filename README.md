@@ -1,46 +1,51 @@
-Before you do anything for everything to work on linux mint:
+Before you do anything for everything to work on linux mint i3 WM:
 
 1. Install necesarry apps
-alarm clock
-audacity
-btop
-chrome
-discord
-feh
-gimp
-polybar
-dunst
-brave
-vs code
-bleach bit
-local send
-picom
-stacer
-ulauncher
-virtual box
-pix
-kdenlive
-obs
-pulseaudio
-syncthing
-timeshift
-lxappearence
-xbacklight
-pavucontrol
-xclip
-Fonts, nerd font symbols (MUST BE IN usr/share/fonts/)
-gnome-screenshot
-alacritty
 
-2. Install i3
+  MUST HAVE FOR THE SYSTEM AND CONFIGS TO WORK ON LINUX MINT CINNAMON/I3 WM
 
-3. Switch to i3
+  chrome
+  feh
+  discord
+  polybar
+  dunst
+  vs code
+  picom
+  ulauncher
+  pulseaudio
+  lxappearence
+  xbacklight
+  pavucontrol
+  xclip
+  Fonts, nerd font symbols (MUST BE IN usr/share/fonts/)
 
-4. Paste the folders inside the hidden .config file on your $HOME directory
+  Strongly Recommended
+    timeshift
+    alarm clock
+    brave
 
-5. restart with super+shift+r
+  
+  Recommended
+    btop
+    gimp
+    bleach bit
+    local send
+    stacer
+    pix
+    kdenlive
+    obs
+    syncthing
+    gnome-screenshot
 
-6 For the polybar if it doesnt work go into terminal and type
+3. Install i3
+
+4. Switch to i3
+
+5. Paste the folders inside the hidden .config file on your $HOME directory
+
+6. restart with super+shift+r
+
+7. For the polybar if it doesnt work go into terminal and type
 
 polybar cebo &
 
@@ -52,4 +57,4 @@ xkill
 
 and press on the unwanted bar
 
-7 Good luck
+8. Good luck
