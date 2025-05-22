@@ -1,128 +1,63 @@
-# WORKSPACES
+Before you do anything for everything to work on linux mint i3 WM:
 
-    1-4 are the main ones
-    5 is for whatever you want just change the icon
-    6 Discord
-    7 VS code
-    8 transmitions
-    9 chrome
+1. Install necesarry apps
 
-##########
-# KEYBINDS
-##########
+  MUST HAVE FOR THE SYSTEM AND CONFIGS TO WORK ON LINUX MINT CINNAMON/I3 WM
 
+  chrome
+  feh
+  discord
+  polybar
+  dunst
+  vs code
+  picom
+  ulauncher
+  pulseaudio
+  lxappearence
+  xbacklight
+  pavucontrol
+  xclip
+  i3lock-fancy
+  Fonts, nerd font symbols (MUST BE IN usr/share/fonts/)
 
-# MAIN KEYBINDS
-    super+return terminal
-    super+d open dmenu (that is if ulauncher doesn't find the right things you need for example lxappearence can't be found inside ulauncher)
-    super+shift+q kill app (quit app)
-    super+shift+r restart i3 (whenever you change anything inside the i3 config you do this)
+  Strongly Recommended
+    timeshift
+    alarm clock
+    brave
 
-# PC STATE
-    control+alt+end shut down pc
-    control+alt+s suspend (sleep pc)
+  
+  Recommended
+    btop
+    gimp
+    bleach bit
+    local send
+    stacer
+    pix
+    kdenlive
+    obs
+    syncthing
+    gnome-screenshot
 
-# SPEAKERS ^ HEADPHONES
-change from headphones to speakers (maybe you need to find the names and change it inside the code)
-    super+shift+p
+3. Install i3
 
-# CHANGE LANGUAGE
-language I have 3
-    alt+1
-    alt+2
-    alt+3
+4. Switch to i3
 
-for me its us, serbian, and serbian/cirilic
+5. Paste the folders inside the hidden .config file on your $HOME directory
 
-# USE THIS WHENEVER YOU CHANGE SOMETHING TO CONFIG, CREATE ONE TIMESHIFT IF AND IF YOU MESS UP JUST RECOVER
-super+shift+t open timeshift
+6. restart with super+shift+r
 
-# SCREENSHOTS (I changed to flameshot you can do that with this code inside the i3
-bindsym Print exec --no-startup-id flameshot gui)
-    prt sc to screenshot all pc
-    prt sc+shift to screenshot a seleciton
+7. For the polybar if it doesnt work go into terminal and type
 
-# OPEN FILE/BROWSER/BROWSER.WINDOWS
-    alt+f to open files
-    alt+d to open downloads
-    alt+s to open sync folder (for me its where all folders go, and its synced with pc thats why its called sync)
-    alt+b open brave (browser of your choice change brave to its name)
+polybar cebo &
 
-my personal ones you don't need I think
+if there are multiple bars
 
-    alt+w open webflow
-    alt+i open figma
-    alt+r open framer
-    alt+x open xano
+type
 
+xkill
 
-# FOCUS WINDOW/STACKING/MOVE WS
-    super+h focus left
-    super+j focus down
-    super+l focus right
+and press on the unwanted bar
 
-    super+s layout stacking
-    super+w layout tabbed
-    super+e layout toggle split
+8. Good luck
 
-    super+shift+h move window left
-    super+shift+j move window down
-    super+shift+k move window up
-    super+shift+l move window right
-
-    super+BackSpace split toggle
-
-    super+f fullscreen toggle
-    super+Shift+space floating toggle
-
-    super+1 workspace 1
-    super+2 workspace 2
-    super+3 workspace 3
-    super+4 workspace 4
-    super+5 workspace 5
-    super+6 workspace 6
-    super+7 workspace 7
-    super+8 workspace 8
-    super+9 workspace 9
-
-    super+shift+1 move workspace 1
-    super+shift+2 move workspace 2
-    super+shift+3 move workspace 3
-    super+shift+4 move workspace 4
-    super+shift+5 move workspace 5
-    super+shift+6 move workspace 6
-    super+shift+7 move workspace 7
-    super+shift+8 move workspace 8
-    super+shift+9 move workspace 9
-
-# ARROW KEYS
-    super+left focus left
-    super+down focus down
-    super+up focus up
-    super+right focus right
-
-# MOVE WINDOW TO NEXT WS
-    alt+shift+left move the window to next ws
-    alt+shift+right move the window to next ws
-
-    alt+super+left move to next window
-    alt+super+right move to next window
-
-# SPECIFIC WINDOWS
-    When you open
-    chrome you go to ws9
-    transmition you go to ws 8
-    vs code you go to 7
-    discord you go to 6
-
-
-# RESIZE
-    super+r to resize with arrows, keep in mind when you finish press enter or escape to escape the resize
-
-
-
-
-
-
-
-
+PS for photos just move the photos where you want and change the code inside ~/.config/i3/config
